@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.font{
+    font-family: "Trirong", serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2rem;
+
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+h4{
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-p{
+    text-align: center;
+    text-align: justify;
+
+}
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+.image-carrosel{
+    width: 500px;
+    height: 200px;
+}
+i{
+    color: rgb(255, 255, 255);
+}
+.card-produt{
+    width: 300px;
+    height: 300px;
+    border: none;
+}
+.card-text{
+    font-style: normal;
+    font-size:small;
+    color: black;
+}
