@@ -1,8 +1,10 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
 
 }
-.font{
+
+.font {
     font-family: "Trirong", serif;
     text-align: center;
     text-transform: uppercase;
@@ -10,40 +12,108 @@ body{
     font-size: 2rem;
 
 }
-h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
     text-transform: uppercase;
 }
-h4{
+.text-navegacao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-transform: uppercase;
+
+}
+a{
+    border: 10px;
+    margin: 5px;
+}
+
+h4 {
     text-transform: uppercase;
     text-align: center;
 }
-.footer-p{
-    text-align: center;
-    text-align: justify;
 
-}
-.nav-link{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     text-transform: uppercase;
     text-align: center;
 }
-.image-carrosel{
-    width: 500px;
+
+.image-carrosel {
+    width: 100%;
     height: 200px;
+
 }
-i{
+
+i {
     color: rgb(255, 255, 255);
 }
-.card-produt{
-    width: 300px;
-    height: 300px;
+
+.card-produt {
+    width: 200px;
+    height: 200px;
     border: none;
 }
-.card-text{
+
+.card-text {
     font-style: normal;
-    font-size:small;
+    font-size: small;
     color: black;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    height: auto;
+    /* Largura da barra lateral */
+    background-color:rgb(4, 79, 254);
+    background-size: 10px;
+    /* Cor de fundo da barra lateral */
+    color: #ffffff;
+    /* Cor do texto na barra lateral */
+    background-size: cover;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    /* Remova marcadores de lista */
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 5px;
+    display: inline;
+}
+
+/* Estilos para o container que centraliza a barra lateral */
+.container {
+    display: inline;
+    justify-content: center;
+    border: 10px;
+    /* Centraliza horizontalmente */
+}
+
+/* Estilos para tornar responsivo */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        /* Empilhar verticalmente em telas menores */
+        align-items: center;
+        /* Centralizar verticalmente */
+    }
+
+    .sidebar {
+        width: 100%;
+        /* Ocupar toda a largura em telas menores */
+    }
+}
+
+
+.sidebar a {
+    text-decoration: none;
+    /* Remova sublinhado dos links */
+    color: #f9f9f9;
+    /* Cor dos links na barra lateral */
+    text-transform: uppercase;
 }
