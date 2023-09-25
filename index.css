@@ -117,3 +117,17 @@ i {
     /* Cor dos links na barra lateral */
     text-transform: uppercase;
 }
+#scrollToTopButton {
+    display: none;
+    position:fixed;
+    bottom: 40px;
+    right: 25px;
+    background-color: #004085;
+    color: #fff;
+    border: 0px;
+    border-radius: 5%;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 999; /* Defina um valor alto para o z-index */
+}
